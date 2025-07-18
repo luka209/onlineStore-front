@@ -1,0 +1,125 @@
+.cont{
+    margin-left: 60px;
+  background: linear-gradient(
+    to bottom right,
+    #0f172a,
+    #000080,  
+    #0f172a   
+  );
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.wrp{
+    padding: 50px 0 50vh 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logout1{
+  width: 100%;
+  background-color: rgba(239, 68, 68, 0.2);
+  color: white;
+  border: 1px solid rgba(239, 68, 68, 0.3); 
+  border-radius: 0.75rem; 
+  padding: .75rem 8rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.2s ease;
+  user-select: none;
+  text-decoration:none ;
+  margin-top: 40px;
+}
+
+.logout1:hover {
+  background-color: rgba(239, 68, 68, 0.3);
+  transform: scale(1.05);
+}
+
+.logout1:active, .logout2:active, .logout3.active {
+  transform: scale(0.95);
+}
+
+.logout2{
+  width: 100%;
+  background-color: rgba(0, 26, 255, 0.2);
+  color: white;
+  border: 1px solid rgba(239, 68, 68, 0.3); 
+  border-radius: 0.75rem; 
+  padding: .75rem 8rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.2s ease;
+  user-select: none;
+  text-decoration:none ;
+ 
+}
+
+.logout2:hover {
+  background-color: rgba(0, 8, 255, 0.679);
+  transform: scale(1.05);
+}
+
+.logout3{
+  width: 100%;
+  background-color: rgba(0, 255, 55, 0.2);
+  color: white;
+  border: 1px solid rgba(37, 105, 31, 0.3); 
+  border-radius: 0.75rem; 
+  padding: .75rem 8rem; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  transition: all 0.2s ease;
+  user-select: none;
+  text-decoration:none ;
+ 
+}
+
+.logout3:hover {
+  background-color: rgba(0, 255, 38, 0.679);
+  transform: scale(1.05);
+}
+
+
+
+
+.buttonstogether{
+    display: flex;
+     gap: 10px;
+     flex-direction: column;
+}
+
+.welcome-text{
+    color: white;
+    font-size: 30px;
+     padding: 10px;
+      border-bottom: 1px solid white;
+}
+.user-circle {
+  width: 70px;
+    margin-top: 75px;   
+  height: 70px;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(8px);
+  border-radius: 50%;
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  user-select: none;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}

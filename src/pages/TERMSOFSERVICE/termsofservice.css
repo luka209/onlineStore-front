@@ -1,0 +1,52 @@
+       :root {
+  --primary-color: #9413be;
+  --words-color: white;
+  --words-secondary: black;
+}
+  
+  
+  
+body{
+    background: none;
+}
+
+.terms-container {
+  width: 100%;
+ margin: 75px 0 0 75px;
+  padding: 40px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+  color:var(--primary-color) ;
+  height: 100%;
+}
+
+.terms-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #1e1e1e;
+}
+
+.terms-container h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #2a2a2a;
+}
+
+.terms-container p {
+  font-size: 1rem;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.terms-container ul {
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.terms-container ul li {
+  list-style: disc;
+  margin-bottom: 0.5rem;
+}

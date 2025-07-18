@@ -1,0 +1,76 @@
+.service-steps-wrapper {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  text-align: center;
+  border-top:1px solid rgb(195, 195, 195) ;
+    border-bottom:1px solid rgb(196, 196, 196) ;
+}
+
+.service-title {
+  font-size: 19px;
+  font-weight: 700;
+  color: #000080;
+  margin-bottom: 30px;
+}
+
+.service-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.step-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.step {
+  background-color: #f0efff;
+  color: #000080;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.indent1 {
+  margin-left: 60px;
+}
+
+.indent2 {
+  margin-left: 120px;
+}
+
+.service-contact,
+.service-location {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 16px;
+  color: #000080;
+}
+
+.service-contact .phone a {
+  font-weight: bold;
+  color: #000080;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.service-location .address {
+  color: #000080;
+  font-weight: bold;
+}
+
+hr {
+  margin: 30px auto;
+  width: 90%;
+  border: 0.5px solid #eee;
+}   
+
+.service-location{
+    margin-bottom: 100px;
+}
